@@ -53,9 +53,9 @@
 
 <dependencies>
     <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>ojdbc5</artifactId>
-      <version>11.2.0.1</version>
+      <groupId>doc-examples</groupId>
+      <artifactId>lambda-java-example</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
