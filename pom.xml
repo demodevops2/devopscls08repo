@@ -50,3 +50,16 @@
       <url>http://54.244.41.146:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
+
+<dependencies>
+    <dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>ojdbc5</artifactId>
+      <version>11.2.0.1</version>
+    </dependency>
+  </dependencies>
+
+  <modules>
+    <module>subModule1</module>
+    <module>subModule2</module>
+  </modules>
