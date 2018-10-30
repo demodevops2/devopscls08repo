@@ -8,6 +8,10 @@ import com.amazonaws.services.lambda.runtime.Context;
 
 public class Hello implements RequestStreamHandler{
    
+   public static void main(String[] args){
+    System.out.println("Helloworld");
+    } 
+   
     
     @Override 
     public void handleRequest(InputStream input,OutputStream output,Context context) throws IOException  {
